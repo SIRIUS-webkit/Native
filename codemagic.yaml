@@ -12,6 +12,7 @@ workflows:
           npm install --legacy-peer-deps
       - name: Install Expo CLI and eject
         script: |
+          npm install -g expo-cli
           npx expo prebuild
           expo eject
       - name: Set up app/build.gradle

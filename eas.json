@@ -1,0 +1,31 @@
+{
+  "cli": {
+    "version": ">= 3.6.1"
+  },
+  "build": {
+    "development": {
+      "node": "16.13.2",
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    },
+    "preview": {
+      "node": "16.13.2",
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    },
+    "production": {
+      "node": "16.13.2",
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

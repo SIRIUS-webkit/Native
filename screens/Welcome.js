@@ -38,7 +38,7 @@ const Welcome = () => {
             color: COLORS.primary,
           }}
         >
-          Discover your dream Investment here!
+          Discover your dream Investment update!
         </Text>
         <Text
           style={{

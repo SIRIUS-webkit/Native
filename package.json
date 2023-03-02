@@ -5,8 +5,7 @@
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web",
-    "eas-build-pre-install": "npm install --save --legacy-peer-deps"
+    "web": "expo start --web"
   },
   "dependencies": {
     "expo": "47.0.12",
